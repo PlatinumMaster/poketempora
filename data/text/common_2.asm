@@ -1373,23 +1373,22 @@ UnknownText_0x1c1cf3::
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
-
-	para "Welcome to the"
+	text "Welcome to the"
 	line "world of #MON!"
 
-	para "My name is OAK."
-
-	para "People call me the"
-	line "#MON PROF."
+	para "I am SHEPARD,"
+	line "the acting"
+	cont "commander of the"
+	cont "International"
+	cont "Police."
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+	text "#MON, creatures"
+	line "which inhabit our"
+	cont "planet, are"
+	cont "integral to our"
+	cont "daily lives.@"
 	text_end
 
 _OakText3::
@@ -1409,14 +1408,11 @@ _OakText4::
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "As the IPF, our"
+	line "job is to protect"
+	cont "these values."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "Which is where you"
+	line "come in."
 
-	para "That's why I study"
-	line "#MON every day."
 	prompt
