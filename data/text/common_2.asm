@@ -1373,8 +1373,10 @@ UnknownText_0x1c1cf3::
 	done
 
 _OakText1::
-	text "Welcome to the"
-	line "world of #MON!"
+	text "Greetings to you."
+	line "I welcome you to"
+	cont "the world of"
+	cont "#MON."
 
 	para "I am SHEPARD,"
 	line "the acting"
@@ -1396,21 +1398,25 @@ _OakText3::
 	text_end
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
-
-	para "supporting each"
-	line "other."
-
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	text "We play with them"
+	line "and battle with"
+	cont "them."
+	
+	para "However, there are"
+	line "nefarious people"
+	cont "who use #MON"
+	cont "for malicious"
+	cont "reasons."
 	prompt
 
 _OakText5::
 	text "As the IPF, our"
-	line "job is to protect"
-	cont "these values."
+	line "job is to prevent"
+	cont "them from being"
+	cont "successful in"
+	cont "their attempts"
+	cont "to harm people"
+	cont "or #MON."
 
 	para "Which is where you"
 	line "come in, rookie."

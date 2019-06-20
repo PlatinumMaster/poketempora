@@ -1,28 +1,30 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Now, what's your"
+	line "name, rookie?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "Are you ready?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "You are given the"
+	line "solemn duty to"
+	cont "protect humans"
+	cont "and #MON from"
+	cont "harm."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "It is not easy."
+	
+	para "Be prepared to"
+	line "face a myriad of"
+	cont "hard times and"
+	cont "tough challenges"
+	cont "as you go on your"
+	cont "adventure."
 
-	para "A world of dreams"
-	line "and adventures"
-
-	para "with #MON"
-	line "awaits! Let's go!"
-
-	para "I'll be seeing you"
-	line "later!"
+	para "That's enough from"
+	line "me."
+	
+	para "Protect and serve!" 
 	done
 
 UnknownText_0x1c40e6::
