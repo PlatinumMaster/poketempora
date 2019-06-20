@@ -1184,22 +1184,22 @@ Copyright:
 	call LoadFontsExtra
 	ld de, CopyrightGFX
 	ld hl, vTiles2 tile $60
-	lb bc, BANK(CopyrightGFX), 29
+	lb bc, BANK(CopyrightGFX), 30
 	call Request2bpp
 	hlcoord 2, 7
 	ld de, CopyrightString
 	jp PlaceString
 
 CopyrightString:
-	; ©1995-2001 Nintendo
+	; ©1995-2019 Nintendo
 	db   $60, $61, $62, $63, $64, $65, $66
 	db   $67, $68, $69, $6a, $6b, $6c
 
-	; ©1995-2001 Creatures inc.
+	; ©1995-2019 Plat & Saleh.
 	next $60, $61, $62, $63, $64, $65, $66
-	db   $6d, $6e, $6f, $70, $71, $72, $7a, $7b, $7c
+	db   $6d, $6e, $6f, $70, $71, $72
 
-	; ©1995-2001 GAME FREAK inc.
+	; ©1995-2019 GAME FREAK inc.
 	next $60, $61, $62, $63, $64, $65, $66
 	db   $73, $74, $75, $76, $77, $78, $79, $7a, $7b, $7c
 

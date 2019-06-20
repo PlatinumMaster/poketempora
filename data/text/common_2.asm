@@ -1380,7 +1380,7 @@ _OakText1::
 	line "the acting"
 	cont "commander of the"
 	cont "International"
-	cont "Police."
+	cont "Police Force."
 	prompt
 
 _OakText2::
@@ -1413,6 +1413,6 @@ _OakText5::
 	cont "these values."
 
 	para "Which is where you"
-	line "come in."
+	line "come in, rookie."
 
 	prompt
