@@ -67,3 +67,6 @@ TrainerClassNames::
 	db "OFFICER@"
 	db "ROCKET@"
 	db "MYSTICALMAN@"
+	db "ETERNITY@"
+	db "ETERNITY ADMIn@"
+	db "ETERNITY LEADER@"

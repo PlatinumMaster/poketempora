@@ -3079,3 +3079,76 @@ MysticalmanGroup:
 	db 23, HAUNTER,    LICK, HYPNOSIS, MEAN_LOOK, CURSE
 	db 25, ELECTRODE,  SCREECH, SONICBOOM, THUNDER, ROLLOUT
 	db -1 ; end
+
+EternityGruntGroup:
+	; GRUNT (1)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	; GRUNT (2)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	; GRUNT (3)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	; GRUNT (4)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	; GRUNT (5)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	; GRUNT (6)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	; GRUNT (7)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	; GRUNT (8)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	; GRUNT (9)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	; GRUNT (10)
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 23, DROWZEE
+	db 23, HAUNTER
+	db 25, ELECTRODE
+	db -1 ; end
+	
+	

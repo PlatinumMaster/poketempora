@@ -101,3 +101,10 @@ Music:
 	dba Music_BattleTowerTheme
 	dba Music_SuicuneBattle
 	dba Music_BattleTowerLobby
+	
+; Tempora Music
+	dba Music_tempora_teamenc
+	dba Music_tempora_teamadminenc
+	dba Music_tempora_teambattle
+	dba Music_tempora_teamleaderbattle
+	dba Music_tempora_hideout

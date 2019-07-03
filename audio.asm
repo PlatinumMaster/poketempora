@@ -151,3 +151,11 @@ SECTION "Cries", ROMX
 INCLUDE "data/pokemon/cries.asm"
 
 INCLUDE "audio/cries.asm"
+
+SECTION "Tempora Songs", ROMX
+
+INCLUDE "audio/music/teamencounter.asm"
+INCLUDE "audio/music/teamadminencounter.asm"
+INCLUDE "audio/music/teambattle.asm"
+INCLUDE "audio/music/teamleaderbattle.asm"
+INCLUDE "audio/music/teamhideout.asm"

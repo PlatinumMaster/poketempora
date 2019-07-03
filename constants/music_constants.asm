@@ -102,6 +102,13 @@
 	const MUSIC_BATTLE_TOWER_THEME           ; 63
 	const MUSIC_SUICUNE_BATTLE               ; 64
 	const MUSIC_BATTLE_TOWER_LOBBY           ; 65
+	
+; Tempora Music
+	const MUSIC_TEMPORA_TEAMENC				 ; 66
+	const MUSIC_TEMPORA_TEAMADMINENC	     ; 67
+	const MUSIC_TEMPORA_TEAMBATTLE			 ; 68
+	const MUSIC_TEMPORA_TEAMLEADERBATTLE	 ; 69
+	const MUSIC_TEMPORA_HIDEOUT
 
 ; ExitPokegearRadio_HandleMusic uses these values
 RESTART_MAP_MUSIC EQU $fe

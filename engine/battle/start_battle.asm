@@ -99,6 +99,16 @@ PlayBattleMusic:
 	jr z, .done
 	cp GRUNTF
 	jr z, .done
+	
+	ld de, MUSIC_TEMPORA_TEAMBATTLE
+	cp ETERNITY_GRUNT
+	jr z, .done
+	;cp ETERNITY_ADMIN
+	;jr z, .done
+	
+	;ld de, MUSIC_TEMPORA_LEADERBATTLE
+	;cp ETERNAL_LEADER
+	;jr z, .done
 
 	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE
 	farcall IsKantoGymLeader

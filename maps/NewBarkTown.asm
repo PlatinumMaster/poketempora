@@ -1,304 +1,260 @@
-	object_const_def ; object_event constants
-	const NEWBARKTOWN_TEACHER
-	const NEWBARKTOWN_FISHER
-	const NEWBARKTOWN_SILVER
+	const_def ; object_event constants
+	const ETERNITY_GRUNT1
+	const ETERNITY_GRUNT2
+	const ETERNITY_GRUNT3
+	const ETERNITY_GRUNT4
+	const ETERNITY_GRUNT5
+	const ETERNITY_GRUNT6
+	const ETERNITY_GRUNT7
+	const ETERNITY_GRUNT8
+	const ETERNITY_GRUNT9
+	const ETERNITY_GRUNT10
+	const ETERNITY_GRUNT11
+	const ETERNITY_GRUNT12
 
 NewBarkTown_MapScripts:
-	db 2 ; scene scripts
-	scene_script .DummyScene0 ; SCENE_DEFAULT
-	scene_script .DummyScene1 ; SCENE_FINISHED
+	db 1 ; scene scripts
+	scene_script .GivePlayerEssentials ; SCENE_DEFAULT
 
 	db 1 ; callbacks
 	callback MAPCALLBACK_NEWMAP, .FlyPoint
 
-.DummyScene0:
+.GivePlayerEssentials:
+	checkflag ENGINE_POKEGEAR
+	iffalse .GivePokeGEAR
+	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELM
+	iffalse .GiveStarter
 	end
-
-.DummyScene1:
+	
+.GivePokeGEAR:
+	setflag ENGINE_POKEGEAR
+	end
+	
+.GiveStarter
+	givepoke TYPHLOSION, 64, BERRY
+	setevent EVENT_GOT_CYNDAQUIL_FROM_ELM
+	closetext
 	end
 
 .FlyPoint:
 	setflag ENGINE_FLYPOINT_NEW_BARK
 	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	return
+	
+; Trainers	
+;; GRUNT (1)
+Trainer_Grunt:
+	trainer ETERNITY_GRUNT, GRUNT1, EVENT_TEMPORA_GRUNT1_DEFEATED, GRUNT1_SEENTEXT, GRUNT1_DEFEATTEXT, 0, DummyScript
+	
+GRUNT1_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT1_DEFEATTEXT:
+	text "I'm not crying!"
+	done
 
-NewBarkTown_TeacherStopsYouScene1:
-	playmusic MUSIC_MOM
-	turnobject NEWBARKTOWN_TEACHER, LEFT
+;; GRUNT (2)	
+Trainer_Grunt2:
+	trainer ETERNITY_GRUNT, GRUNT1, EVENT_TEMPORA_GRUNT2_DEFEATED, GRUNT2_SEENTEXT, GRUNT2_DEFEATTEXT, 0, DummyScript
+	
+GRUNT2_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT2_DEFEATTEXT:
+	text "I'm not crying!"
+	done
+
+;; GRUNT (3)
+Trainer_Grunt3:
+	trainer ETERNITY_GRUNT, GRUNT3, EVENT_TEMPORA_GRUNT3_DEFEATED, GRUNT3_SEENTEXT, GRUNT3_DEFEATTEXT, 0, DummyScript
+	
+GRUNT3_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT3_DEFEATTEXT:
+	text "I'm not crying!"
+	done
+
+;; GRUNT (4)
+Trainer_Grunt4:
+	trainer ETERNITY_GRUNT, GRUNT4, EVENT_TEMPORA_GRUNT4_DEFEATED, GRUNT4_SEENTEXT, GRUNT4_DEFEATTEXT, 0, DummyScript
+	
+GRUNT4_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT4_DEFEATTEXT:
+	text "I'm not crying!"
+	done
+
+;; GRUNT (4)
+Trainer_Grunt5:
+	trainer ETERNITY_GRUNT, GRUNT5, EVENT_TEMPORA_GRUNT5_DEFEATED, GRUNT5_SEENTEXT, GRUNT5_DEFEATTEXT, 0, DummyScript
+	
+GRUNT5_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT5_DEFEATTEXT:
+	text "I'm not crying!"
+	done
+
+;; GRUNT (6)
+Trainer_Grunt6:
+	trainer ETERNITY_GRUNT, GRUNT6, EVENT_TEMPORA_GRUNT6_DEFEATED, GRUNT6_SEENTEXT, GRUNT6_DEFEATTEXT, 0, DummyScript
+	
+GRUNT6_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT6_DEFEATTEXT:
+	text "I'm not crying!"
+	done
+
+;; GRUNT (7)
+Trainer_Grunt7:
+	trainer ETERNITY_GRUNT, GRUNT7, EVENT_TEMPORA_GRUNT7_DEFEATED, GRUNT7_SEENTEXT, GRUNT7_DEFEATTEXT, 0, DummyScript
+	
+GRUNT7_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT7_DEFEATTEXT:
+	text "I'm not crying!"
+	done
+
+;; GRUNT (8)
+Trainer_Grunt8:
+	trainer ETERNITY_GRUNT, GRUNT8, EVENT_TEMPORA_GRUNT8_DEFEATED, GRUNT8_SEENTEXT, GRUNT8_DEFEATTEXT, 0, DummyScript
+	
+GRUNT8_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT8_DEFEATTEXT:
+	text "I'm not crying!"
+	done
+
+;; GRUNT (9)
+Trainer_Grunt9:
+	trainer ETERNITY_GRUNT, GRUNT9, EVENT_TEMPORA_GRUNT9_DEFEATED, GRUNT9_SEENTEXT, GRUNT9_DEFEATTEXT, 0, DummyScript
+	
+GRUNT9_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT9_DEFEATTEXT:
+	text "I'm not crying!"
+	done
+
+;; GRUNT (10)
+Trainer_Grunt10:
+	trainer ETERNITY_GRUNT, GRUNT10, EVENT_TEMPORA_GRUNT10_DEFEATED, GRUNT10_SEENTEXT, GRUNT10_DEFEATTEXT, 0, DummyScript
+	
+GRUNT10_SEENTEXT:
+	text "Hey! You're not"
+	line "authorized to be"
+	cont "in here."
+	
+	para "No big deal,"
+	line "you'll go back"
+	cont "in tears!"
+	done	
+	
+GRUNT10_DEFEATTEXT:
+	text "I'm not crying!"
+	done
+
+; Other Scripts
+	
+DummyScript:
 	opentext
-	writetext Text_WaitPlayer
+	writetext DummyText
 	waitbutton
 	closetext
-	turnobject PLAYER, RIGHT
-	applymovement NEWBARKTOWN_TEACHER, Movement_TeacherRunsToYou1_NBT
-	opentext
-	writetext Text_WhatDoYouThinkYoureDoing
-	waitbutton
-	closetext
-	follow NEWBARKTOWN_TEACHER, PLAYER
-	applymovement NEWBARKTOWN_TEACHER, Movement_TeacherBringsYouBack1_NBT
-	stopfollow
-	opentext
-	writetext Text_ItsDangerousToGoAlone
-	waitbutton
-	closetext
-	special RestartMapMusic
 	end
 
-NewBarkTown_TeacherStopsYouScene2:
-	playmusic MUSIC_MOM
-	turnobject NEWBARKTOWN_TEACHER, LEFT
-	opentext
-	writetext Text_WaitPlayer
-	waitbutton
-	closetext
-	turnobject PLAYER, RIGHT
-	applymovement NEWBARKTOWN_TEACHER, Movement_TeacherRunsToYou2_NBT
-	turnobject PLAYER, UP
-	opentext
-	writetext Text_WhatDoYouThinkYoureDoing
-	waitbutton
-	closetext
-	follow NEWBARKTOWN_TEACHER, PLAYER
-	applymovement NEWBARKTOWN_TEACHER, Movement_TeacherBringsYouBack2_NBT
-	stopfollow
-	opentext
-	writetext Text_ItsDangerousToGoAlone
-	waitbutton
-	closetext
-	special RestartMapMusic
-	end
-
-NewBarkTownTeacherScript:
-	faceplayer
-	opentext
-	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	iftrue .CallMom
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftrue .TellMomYoureLeaving
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue .MonIsAdorable
-	writetext Text_GearIsImpressive
-	waitbutton
-	closetext
-	end
-
-.MonIsAdorable:
-	writetext Text_YourMonIsAdorable
-	waitbutton
-	closetext
-	end
-
-.TellMomYoureLeaving:
-	writetext Text_TellMomIfLeaving
-	waitbutton
-	closetext
-	end
-
-.CallMom:
-	writetext Text_CallMomOnGear
-	waitbutton
-	closetext
-	end
-
-NewBarkTownFisherScript:
-	jumptextfaceplayer Text_ElmDiscoveredNewMon
-
-NewBarkTownSilverScript:
-	opentext
-	writetext NewBarkTownRivalText1
-	waitbutton
-	closetext
-	turnobject NEWBARKTOWN_SILVER, LEFT
-	opentext
-	writetext NewBarkTownRivalText2
-	waitbutton
-	closetext
-	follow PLAYER, NEWBARKTOWN_SILVER
-	applymovement PLAYER, Movement_SilverPushesYouAway_NBT
-	stopfollow
-	pause 5
-	turnobject NEWBARKTOWN_SILVER, DOWN
-	pause 5
-	playsound SFX_TACKLE
-	applymovement PLAYER, Movement_SilverShovesYouOut_NBT
-	applymovement NEWBARKTOWN_SILVER, Movement_SilverReturnsToTheShadows_NBT
-	end
-
-NewBarkTownSign:
-	jumptext NewBarkTownSignText
-
-NewBarkTownPlayersHouseSign:
-	jumptext NewBarkTownPlayersHouseSignText
-
-NewBarkTownElmsLabSign:
-	jumptext NewBarkTownElmsLabSignText
-
-NewBarkTownElmsHouseSign:
-	jumptext NewBarkTownElmsHouseSignText
-
-Movement_TeacherRunsToYou1_NBT:
-	step LEFT
-	step LEFT
-	step LEFT
-	step LEFT
-	step_end
-
-Movement_TeacherRunsToYou2_NBT:
-	step LEFT
-	step LEFT
-	step LEFT
-	step LEFT
-	step LEFT
-	turn_head DOWN
-	step_end
-
-Movement_TeacherBringsYouBack1_NBT:
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	turn_head LEFT
-	step_end
-
-Movement_TeacherBringsYouBack2_NBT:
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	turn_head LEFT
-	step_end
-
-Movement_SilverPushesYouAway_NBT:
-	turn_head UP
-	step DOWN
-	step_end
-
-Movement_SilverShovesYouOut_NBT:
-	turn_head UP
-	fix_facing
-	jump_step DOWN
-	remove_fixed_facing
-	step_end
-
-Movement_SilverReturnsToTheShadows_NBT:
-	step RIGHT
-	step_end
-
-Text_GearIsImpressive:
-	text "Wow, your #GEAR"
-	line "is impressive!"
-
-	para "Did your mom get"
-	line "it for you?"
+DummyText:
+	text "Dumbass hacker!"
 	done
-
-Text_WaitPlayer:
-	text "Wait, <PLAY_G>!"
-	done
-
-Text_WhatDoYouThinkYoureDoing:
-	text "What do you think"
-	line "you're doing?"
-	done
-
-Text_ItsDangerousToGoAlone:
-	text "It's dangerous to"
-	line "go out without a"
-	cont "#MON!"
-
-	para "Wild #MON"
-	line "jump out of the"
-
-	para "grass on the way"
-	line "to the next town."
-	done
-
-Text_YourMonIsAdorable:
-	text "Oh! Your #MON"
-	line "is adorable!"
-	cont "I wish I had one!"
-	done
-
-Text_TellMomIfLeaving:
-	text "Hi, <PLAY_G>!"
-	line "Leaving again?"
-
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
-	done
-
-Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #GEAR to"
-
-	para "let her know how"
-	line "you're doing."
-	done
-
-Text_ElmDiscoveredNewMon:
-	text "Yo, <PLAYER>!"
-
-	para "I hear PROF.ELM"
-	line "discovered some"
-	cont "new #MON."
-	done
-
-NewBarkTownRivalText1:
-	text "<……>"
-
-	para "So this is the"
-	line "famous ELM #MON"
-	cont "LAB…"
-	done
-
-NewBarkTownRivalText2:
-	text "…What are you"
-	line "staring at?"
-	done
-
-NewBarkTownSignText:
-	text "NEW BARK TOWN"
-
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
-	done
-
-NewBarkTownPlayersHouseSignText:
-	text "<PLAYER>'s House"
-	done
-
-NewBarkTownElmsLabSignText:
-	text "ELM #MON LAB"
-	done
-
-NewBarkTownElmsHouseSignText:
-	text "ELM'S HOUSE"
-	done
-
+	
 NewBarkTown_MapEvents:
 	db 0, 0 ; filler
 
-	db 4 ; warp events
-	warp_event  6,  3, ELMS_LAB, 1
-	warp_event 13,  5, PLAYERS_HOUSE_1F, 1
-	warp_event  3, 11, PLAYERS_NEIGHBORS_HOUSE, 1
-	warp_event 11, 13, ELMS_HOUSE, 1
+	db 0 ; warp events
+	
+	db 0 ; coord events
 
-	db 2 ; coord events
-	coord_event  1,  8, SCENE_DEFAULT, NewBarkTown_TeacherStopsYouScene1
-	coord_event  1,  9, SCENE_DEFAULT, NewBarkTown_TeacherStopsYouScene2
+	db 0 ; bg events
 
-	db 4 ; bg events
-	bg_event  8,  8, BGEVENT_READ, NewBarkTownSign
-	bg_event 11,  5, BGEVENT_READ, NewBarkTownPlayersHouseSign
-	bg_event  3,  3, BGEVENT_READ, NewBarkTownElmsLabSign
-	bg_event  9, 13, BGEVENT_READ, NewBarkTownElmsHouseSign
-
-	db 3 ; object events
-	object_event  6,  8, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NewBarkTownTeacherScript, -1
-	object_event 12,  9, SPRITE_FISHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NewBarkTownFisherScript, -1
-	object_event  3,  2, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NewBarkTownSilverScript, EVENT_RIVAL_NEW_BARK_TOWN
+	db 7 ; object events
+	object_event  2,  8, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, Trainer_Grunt, -1
+	object_event  2,  20, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, Trainer_Grunt2, -1
+	object_event  4,  27, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, Trainer_Grunt3, -1	
+	object_event  8,  2, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, Trainer_Grunt4, -1	
+	object_event  8,  12, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, Trainer_Grunt5, -1	
+	object_event  13,  22, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 3, DummyScript, -1	
+	object_event  13,  23, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 3, DummyScript, -1	
+	object_event  17,  8, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, Trainer_Grunt6, -1
+	object_event  17,  20, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, Trainer_Grunt7, -1
+	object_event  24,  22, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, Trainer_Grunt8, -1	
+	object_event  25,  1, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, Trainer_Grunt9, -1	
+	object_event  26,  27, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 3, DummyScript, -1	
+	

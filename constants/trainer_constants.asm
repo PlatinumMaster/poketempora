@@ -630,5 +630,17 @@ KRIS EQU __enum__
 
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
+	
+	trainerclass ETERNITY_GRUNT
+	const GRUNT1
+	const GRUNT2
+	const GRUNT3
+	const GRUNT4
+	const GRUNT5
+	const GRUNT6
+	const GRUNT7
+	const GRUNT8
+	const GRUNT9
+	const GRUNT10
 
 NUM_TRAINER_CLASSES EQU __enum__

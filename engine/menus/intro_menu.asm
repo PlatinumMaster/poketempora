@@ -60,13 +60,12 @@ NewGame:
 	ld [wDebugFlags], a
 	call ResetWRAM
 	call NewGame_ClearTileMapEtc
-	farcall InitGender
 	call OakSpeech
 	call InitializeWorld
 	ld a, 1
 	ld [wPrevLandmark], a
 
-	ld a, SPAWN_HOME
+	ld a, SPAWN_NEW_BARK
 	ld [wDefaultSpawnpoint], a
 
 	ld a, MAPSETUP_WARP
@@ -580,10 +579,6 @@ Continue_DisplayGameTime:
 	jp PrintNum
 
 OakSpeech:
-	farcall InitClock
-	call RotateFourPalettesLeft
-	call ClearTileMap
-
 	ld de, MUSIC_ROUTE_30
 	call PlayMusic
 

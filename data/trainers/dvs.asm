@@ -68,3 +68,6 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; OFFICER
 	dn  7, 14, 10,  8 ; GRUNTF
 	dn  9,  8,  8,  8 ; MYSTICALMAN
+	dn  7,  8,  8,  8 ; Eternity Grunt
+	dn  7,  8,  8,  8 ; Eternity Admin
+	dn  7,  8,  8,  8 ; Eternity Leader
