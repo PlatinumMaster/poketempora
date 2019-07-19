@@ -6,10 +6,10 @@ ENDM
 
 OverworldSprites:
 ; entries correspond to SPRITE_* constants
-	overworld_sprite ChrisSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite ChrisSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite ChrisBikeSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite GameboyKidSpriteGFX, 12, STANDING_SPRITE, PAL_OW_GREEN
-	overworld_sprite SilverSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite SilverSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite OakSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite RedSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite BlueSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
@@ -46,7 +46,7 @@ OverworldSprites:
 	overworld_sprite TwinSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite YoungsterSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite LassSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite TeacherSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite RocketSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite BuenaSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite SuperNerdSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite RockerSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
@@ -63,7 +63,7 @@ OverworldSprites:
 	overworld_sprite NurseSpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite LinkReceptionistSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite ClerkSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite FisherSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite RocketGirlSpriteGFX , 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite FishingGuruSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite ScientistSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite KimonoGirlSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
@@ -107,3 +107,4 @@ OverworldSprites:
 	overworld_sprite EnteiSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite RaikouSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite StandingYoungsterSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
+	

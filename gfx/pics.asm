@@ -147,7 +147,6 @@ BellossomFrontpic:   INCBIN "gfx/pokemon/bellossom/front.animated.2bpp.lz"
 SnorlaxFrontpic:     INCBIN "gfx/pokemon/snorlax/front.animated.2bpp.lz"
 WigglytuffFrontpic:  INCBIN "gfx/pokemon/wigglytuff/front.animated.2bpp.lz"
 YanmaFrontpic:       INCBIN "gfx/pokemon/yanma/front.animated.2bpp.lz"
-SmeargleFrontpic:    INCBIN "gfx/pokemon/smeargle/front.animated.2bpp.lz"
 ClefableFrontpic:    INCBIN "gfx/pokemon/clefable/front.animated.2bpp.lz"
 PonytaFrontpic:      INCBIN "gfx/pokemon/ponyta/front.animated.2bpp.lz"
 MurkrowFrontpic:     INCBIN "gfx/pokemon/murkrow/front.animated.2bpp.lz"
@@ -215,7 +214,6 @@ ChampionPic:         INCBIN "gfx/trainers/champion.2bpp.lz"
 SpearowFrontpic:     INCBIN "gfx/pokemon/spearow/front.animated.2bpp.lz"
 MagikarpFrontpic:    INCBIN "gfx/pokemon/magikarp/front.animated.2bpp.lz"
 CharmanderFrontpic:  INCBIN "gfx/pokemon/charmander/front.animated.2bpp.lz"
-CuboneFrontpic:      INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lz"
 BlackbeltTPic:       INCBIN "gfx/trainers/blackbelt_t.2bpp.lz"
 BikerPic:            INCBIN "gfx/trainers/biker.2bpp.lz"
 NidoranMFrontpic:    INCBIN "gfx/pokemon/nidoran_m/front.animated.2bpp.lz"
@@ -536,7 +534,6 @@ HoppipBackpic:       INCBIN "gfx/pokemon/hoppip/back.2bpp.lz"
 BluePic:             INCBIN "gfx/trainers/blue.2bpp.lz"
 GranbullBackpic:     INCBIN "gfx/pokemon/granbull/back.2bpp.lz"
 GentlemanPic:        INCBIN "gfx/trainers/gentleman.2bpp.lz"
-ExecutivemPic:       INCBIN "gfx/trainers/executive_m.2bpp.lz"
 SpearowBackpic:      INCBIN "gfx/pokemon/spearow/back.2bpp.lz"
 SunkernBackpic:      INCBIN "gfx/pokemon/sunkern/back.2bpp.lz"
 LaprasBackpic:       INCBIN "gfx/pokemon/lapras/back.2bpp.lz"
@@ -568,7 +565,6 @@ SECTION "Pics 17", ROMX
 ParasBackpic:        INCBIN "gfx/pokemon/paras/back.2bpp.lz"
 VaporeonBackpic:     INCBIN "gfx/pokemon/vaporeon/back.2bpp.lz"
 TentacoolBackpic:    INCBIN "gfx/pokemon/tentacool/back.2bpp.lz"
-ExecutivefPic:       INCBIN "gfx/trainers/executive_f.2bpp.lz"
 BulbasaurBackpic:    INCBIN "gfx/pokemon/bulbasaur/back.2bpp.lz"
 SmoochumBackpic:     INCBIN "gfx/pokemon/smoochum/back.2bpp.lz"
 PichuBackpic:        INCBIN "gfx/pokemon/pichu/back.2bpp.lz"
@@ -695,6 +691,8 @@ UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 SECTION "Pics 19", ROMX
 PokemonProfPic:      INCBIN "gfx/trainers/oak.2bpp.lz"
 GruntmPic:           INCBIN "gfx/trainers/grunt_m.2bpp.lz"
+ExecutivemPic:       INCBIN "gfx/trainers/executive_m.2bpp.lz"
+ExecutivefPic:       INCBIN "gfx/trainers/executive_f.2bpp.lz"
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).
@@ -722,6 +720,8 @@ PrimeapeFrontpic:    INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
 OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
 
 SECTION "Pics 22", ROMX
+SmeargleFrontpic:    INCBIN "gfx/pokemon/smeargle/front.animated.2bpp.lz"
+CuboneFrontpic:      INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lz"
 
 SECTION "Pics 23", ROMX
 

@@ -9,7 +9,7 @@ Music_tempora_teamleaderbattle_Ch1:
 	stereopanning $77
 	dutycycle 1
 	octave 4
-	notetype $C, $FF
+	notetype $C, $B8
 	note F#, 1
 	note F_, 1
 	note E_, 1
@@ -333,7 +333,7 @@ Music_tempora_teamleaderbattle_Ch1_loop:
 	note C#, 2
 	octave 3
 	note B_, 16
-	note __, 16
+	note B_, 16
 	octave 4
 	note D#, 16
 	octave 3
@@ -341,7 +341,7 @@ Music_tempora_teamleaderbattle_Ch1_loop:
 	octave 4
 	note C_, 2
 	note C#, 16
-	note __, 16
+	note C#, 16
 	octave 3
 	note G#, 16
 	note F_, 16
@@ -435,9 +435,9 @@ Music_tempora_teamleaderbattle_Ch1_loop:
 	loopchannel 0, Music_tempora_teamleaderbattle_Ch1_loop
 
 Music_tempora_teamleaderbattle_Ch2:
-	dutycycle 1
+	dutycycle 3
 	octave 4
-	notetype $C, $FF
+	notetype $C, $B6
 	note F#, 1
 	note C#, 1
 	octave 5
@@ -787,6 +787,7 @@ Music_tempora_teamleaderbattle_Ch2_loop:
 	note F_, 14
 	octave 3
 	note G#, 2
+	intensity $B7
 	note F#, 16
 	note F#, 16
 	note B_, 16
@@ -800,10 +801,11 @@ Music_tempora_teamleaderbattle_Ch2_loop:
 	note G#, 16
 	note F_, 16
 	note C#, 8
+	intensity $B6
 	octave 3
 	note C#, 8
 	note F_, 6
-	notetype $3, $FF
+	notetype $3, $B6
 	note E_, 1
 	note D_, 1
 	note C#, 1
@@ -822,7 +824,7 @@ Music_tempora_teamleaderbattle_Ch2_loop:
 	note A_, 4
 	note G_, 4
 	note F_, 8
-	notetype $C, $FF
+	notetype $C, $B6
 	note C#, 8
 	note F#, 8
 	octave 2
@@ -852,8 +854,8 @@ Music_tempora_teamleaderbattle_Ch2_loop:
 Music_tempora_teamleaderbattle_Ch3:
 	notetype $C, $00
 	note __, 8
-	dutycycle 1
-	intensity $11
+	dutycycle 4
+	intensity $14
 	octave 4
 	note G#, 2
 	note F_, 2

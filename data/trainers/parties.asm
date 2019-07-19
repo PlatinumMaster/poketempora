@@ -3083,72 +3083,80 @@ MysticalmanGroup:
 EternityGruntGroup:
 	; GRUNT (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
+	db 43, NATU
+	db 45, MAGNETON
 	db -1 ; end
 	
 	; GRUNT (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
+	db 44, HAUNTER
+	db 44, GOLBAT
 	db -1 ; end
 	
 	; GRUNT (3)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
+	db 44, MAGNETON
+	db 45, XATU
+	db 44, HAUNTER
 	db -1 ; end
 	
 	; GRUNT (4)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
+	db 43, HAUNTER
+	db 45, MAGNETON
 	db -1 ; end
 	
 	; GRUNT (5)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
+	db 42, MAGNEMITE
+	db 45, XATU
 	db -1 ; end
 	
 	; GRUNT (6)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
+	db 43, MAGNETON
+	db 44, XATU
+	db 45, HAUNTER
 	db -1 ; end
 	
 	; GRUNT (7)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
+	db 43, GOLBAT
+	db 44, XATU
 	db -1 ; end
 	
 	; GRUNT (8)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
-	db -1 ; end
-	
-	; GRUNT (9)
-	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
+	db 45, MAGNETON
+	db 45, GOLBAT
+	db 45, XATU
 	db -1 ; end
 	
 	; GRUNT (10)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, DROWZEE
-	db 23, HAUNTER
-	db 25, ELECTRODE
+	db 45, XATU
+	db 45, GOLBAT
+	db 45, HAUNTER
 	db -1 ; end
 	
+EternityAdminGroup:
+	; MINERVA (1)
+	db "MINERVA@", TRAINERTYPE_NORMAL
+	db 45, CLEFABLE
+	db 45, WIGGLYTUFF
+	db 45, JYNX
+	db 45, SLOWKING
+	db 47, SMEARGLE ;; Actually Lilligant
+	db -1 ; end	
+	
+EternityLeaderGroup:
+	; ZENTHOR (1)
+	db "ZENTHOR@", TRAINERTYPE_NORMAL
+	db 47, SNORLAX
+	db 46, GENGAR
+	db 47, DRAGONITE
+	db 49, TYRANITAR
+	db 48, HOUNDOOM
+	db 50, CUBONE
+	db -1 ; end	
 	

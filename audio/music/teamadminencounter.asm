@@ -10,7 +10,7 @@ Music_tempora_teamadminenc_Ch1:
 	stereopanning $77
 	dutycycle 1
 	octave 4
-	notetype $C, $FF
+	notetype $C, $F6
 	note C_, 1
 	octave 3
 	note G#, 1
@@ -236,8 +236,9 @@ Music_tempora_teamadminenc_Ch2_loop:
 	loopchannel 0, Music_tempora_teamadminenc_Ch2_loop
 
 Music_tempora_teamadminenc_Ch3:
+	dutycycle 5
 	octave 2
-	notetype $C, $10
+	notetype $C, $15
 	note C_, 12
 	note D#, 1
 	note F#, 1
@@ -457,6 +458,7 @@ Music_tempora_teamadminenc_Ch4:
 	note G#, 1
 	note G#, 2
 Music_tempora_teamadminenc_Ch4_loop:
+	notetype $6
 	note D#, 3
 	note __, 1
 	note D#, 1

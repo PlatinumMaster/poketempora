@@ -70,3 +70,5 @@ TrainerGroups:
 	dw GruntFGroup
 	dw MysticalmanGroup
 	dw EternityGruntGroup
+	dw EternityAdminGroup
+	dw EternityLeaderGroup

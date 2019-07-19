@@ -119,6 +119,8 @@
 	const ENGINE_62
 ; wPlayerGender
 	const ENGINE_PLAYER_IS_FEMALE
+; wTemporaSpriteSwitchFlags
+	const ENGINE_TEMPORA_ISDITTO
 ; wCelebiEvent
 	const ENGINE_FOREST_IS_RESTLESS
 ; wDailyRematchFlags

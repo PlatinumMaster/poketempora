@@ -128,6 +128,8 @@ EngineFlags:
 	engine_flag wGameTimerPause, GAMETIMERPAUSE_MOBILE_7_F
 
 	engine_flag wPlayerGender, PLAYERGENDER_FEMALE_F
+	
+	engine_flag wTempora_IsDitto, TEMPORA_ISDITTO
 
 	engine_flag wCelebiEvent, CELEBIEVENT_FOREST_IS_RESTLESS_F
 

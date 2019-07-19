@@ -640,7 +640,13 @@ KRIS EQU __enum__
 	const GRUNT6
 	const GRUNT7
 	const GRUNT8
-	const GRUNT9
 	const GRUNT10
+
+	trainerclass ETERNITY_ADMIN
+	const MINERVA
+	
+	trainerclass ETERNITY_LEADER
+	const ZENTHOR
+
 
 NUM_TRAINER_CLASSES EQU __enum__

@@ -108,3 +108,4 @@ Music:
 	dba Music_tempora_teambattle
 	dba Music_tempora_teamleaderbattle
 	dba Music_tempora_hideout
+	dba Music_tempora_teamleaderenc

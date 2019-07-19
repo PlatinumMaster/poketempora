@@ -10,10 +10,10 @@ Music_tempora_hideout_Ch1:
 	stereopanning $77
 	dutycycle 1
 	octave 2
-	notetype $C, $FF
+	notetype $C, $B8
 	note C_, 1
 	note __, 1
-	notetype $6, $FF
+	notetype $6, $B8
 	note C_, 1
 	note __, 1
 	note C_, 1
@@ -227,10 +227,10 @@ Music_tempora_hideout_Ch1_loop:
 Music_tempora_hideout_Ch2:
 	dutycycle 1
 	octave 2
-	notetype $C, $FF
+	notetype $C, $B8
 	note G_, 1
 	note __, 1
-	notetype $6, $FF
+	notetype $6, $B8
 	note G_, 1
 	note __, 1
 	note G_, 1
@@ -282,9 +282,9 @@ Music_tempora_hideout_Ch2_loop:
 	note D_, 8
 	note C_, 4
 	octave 2
-	notetype $F, $FF
+	notetype $F, $B8
 	note B_, 8
-	notetype $C, $FF
+	notetype $C, $B8
 	note G_, 8
 	octave 3
 	note C_, 8
@@ -338,7 +338,7 @@ Music_tempora_hideout_Ch2_loop:
 	octave 2
 	note G_, 1
 	note __, 1
-	notetype $6, $FF
+	notetype $6, $B8
 	note G_, 1
 	note __, 1
 	note G_, 1
@@ -376,12 +376,13 @@ Music_tempora_hideout_Ch2_loop:
 	loopchannel 0, Music_tempora_hideout_Ch2_loop
 
 Music_tempora_hideout_Ch3:
+	dutycycle 4
 	tone $0007
 	octave 2
-	notetype $8, $10
+	notetype $8, $14
 	note C_, 2
 	note __, 1
-	notetype $4, $10
+	notetype $4, $14
 	note C_, 1
 	note __, 2
 	note C_, 1
@@ -474,7 +475,7 @@ Music_tempora_hideout_Ch3_loop:
 	note C_, 1
 	note __, 2
 	octave 1
-	notetype $6, $10
+	notetype $6, $14
 	note A#, 1
 	note __, 1
 	octave 2
@@ -487,7 +488,7 @@ Music_tempora_hideout_Ch3_loop:
 	octave 1
 	note G#, 4
 	octave 2
-	notetype $4, $10
+	notetype $4, $14
 	note D#, 1
 	note __, 2
 	note D#, 1
@@ -513,19 +514,19 @@ Music_tempora_hideout_Ch3_loop:
 	note D_, 3
 	octave 1
 	note B_, 3
-	notetype $C, $10
+	notetype $C, $14
 	note G_, 6
-	notetype $6, $10
+	notetype $6, $14
 	note B_, 1
 	note A#, 1
 	note B_, 2
 	note G_, 2
 	note B_, 2
 	octave 2
-	notetype $8, $10
+	notetype $8, $14
 	note C_, 2
 	note __, 1
-	notetype $4, $10
+	notetype $4, $14
 	note C_, 1
 	note __, 2
 	note C_, 1
@@ -569,7 +570,7 @@ Music_tempora_hideout_Ch3_loop:
 	note C_, 1
 	note __, 2
 	octave 1
-	notetype $6, $10
+	notetype $6, $14
 	note A#, 1
 	note __, 1
 	octave 2
@@ -582,7 +583,7 @@ Music_tempora_hideout_Ch3_loop:
 	octave 1
 	note G#, 4
 	octave 2
-	notetype $4, $10
+	notetype $4, $14
 	note D#, 1
 	note __, 2
 	note D#, 1
@@ -610,12 +611,12 @@ Music_tempora_hideout_Ch3_loop:
 	note __, 2
 	note D#, 6
 	note D_, 6
-	notetype $C, $10
+	notetype $C, $14
 	note C_, 8
-	notetype $8, $10
+	notetype $8, $14
 	note C_, 2
 	note __, 1
-	notetype $4, $10
+	notetype $4, $14
 	note C_, 1
 	note __, 2
 	note C_, 1
@@ -659,7 +660,7 @@ Music_tempora_hideout_Ch3_loop:
 	note C_, 1
 	note __, 2
 	octave 1
-	notetype $6, $10
+	notetype $6, $14
 	note A#, 1
 	note __, 1
 	octave 2
@@ -672,7 +673,7 @@ Music_tempora_hideout_Ch3_loop:
 	octave 1
 	note G#, 4
 	octave 2
-	notetype $4, $10
+	notetype $4, $14
 	note D#, 1
 	note __, 2
 	note D#, 1
@@ -698,19 +699,19 @@ Music_tempora_hideout_Ch3_loop:
 	note D_, 3
 	octave 1
 	note B_, 3
-	notetype $C, $10
+	notetype $C, $14
 	note G_, 6
-	notetype $6, $10
+	notetype $6, $14
 	note B_, 1
 	note A#, 1
 	note B_, 2
 	note G_, 2
 	note B_, 2
 	octave 2
-	notetype $8, $10
+	notetype $8, $14
 	note C_, 2
 	note __, 1
-	notetype $4, $10
+	notetype $4, $14
 	note C_, 1
 	note __, 2
 	note C_, 1
@@ -754,7 +755,7 @@ Music_tempora_hideout_Ch3_loop:
 	note C_, 1
 	note __, 2
 	octave 1
-	notetype $6, $10
+	notetype $6, $14
 	note A#, 1
 	note __, 1
 	octave 2
@@ -767,7 +768,7 @@ Music_tempora_hideout_Ch3_loop:
 	octave 1
 	note G#, 4
 	octave 2
-	notetype $4, $10
+	notetype $4, $14
 	note D#, 1
 	note __, 2
 	note D#, 1
@@ -790,12 +791,12 @@ Music_tempora_hideout_Ch3_loop:
 	note G_, 6
 	note B_, 6
 	octave 2
-	notetype $C, $10
+	notetype $C, $14
 	note C_, 8
-	notetype $8, $10
+	notetype $8, $14
 	note C_, 2
 	note __, 1
-	notetype $4, $10
+	notetype $4, $14
 	note C_, 1
 	note __, 2
 	note C_, 1

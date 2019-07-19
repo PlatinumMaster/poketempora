@@ -32,40 +32,40 @@ RefreshSprites::
 
 GetPlayerSprite:
 ; Get Chris or Kris's sprite.
-	ld hl, ChrisStateSprites
-	ld a, [wPlayerSpriteSetupFlags]
-	bit PLAYERSPRITESETUP_FEMALE_TO_MALE_F, a
-	jr nz, .go
-	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+; By default, Chris' sprites are loaded.
+	ld hl, ChrisStateSprites ;; Loads into hl 
+	ld a, [wPlayerSpriteSetupFlags] ;; Loads into a
+	bit PLAYERSPRITESETUP_FEMALE_TO_MALE_F, a ;; Tests bit 2 of a
+	jr nz, .go ;; If true jump to go
+	ld a, [wTempora_IsDitto]
+	bit TEMPORA_ISDITTO, a
 	jr z, .go
-	ld hl, KrisStateSprites
-
+	ld hl, EternityGruntStateSprites
 .go
-	ld a, [wPlayerState]
-	ld c, a
+	ld a, [wPlayerState] ;; Load PlayerState into a
+	ld c, a ;; Load a into c
 .loop
-	ld a, [hli]
-	cp c
-	jr z, .good
-	inc hl
-	cp -1
-	jr nz, .loop
+	ld a, [hli] ;; Load hli into a
+	cp c ;; Subtract c from a
+	jr z, .good ;; If true, jump to .good
+	inc hl ;; Increment hl
+	cp -1 ;; Subtract negative 1 from a... why?
+	jr nz, .loop ;; If true, jump to the beginning of the loop
 
 ; Any player state not in the array defaults to Chris's sprite.
-	xor a ; ld a, PLAYER_NORMAL
-	ld [wPlayerState], a
-	ld a, SPRITE_CHRIS
-	jr .finish
+	xor a ; ld a, PLAYER_NORMAL (load PLAYER_NORMAL into a)
+	ld [wPlayerState], a ; load a into PlayerState
+	ld a, SPRITE_CHRIS ; Load SPRITE_CHRIS into a
+	jr .finish ; Jump to finish
 
 .good
-	ld a, [hl]
+	ld a, [hl] ; load hl into a
 
 .finish
-	ld [wUsedSprites + 0], a
-	ld [wPlayerSprite], a
-	ld [wPlayerObjectSprite], a
-	ret
+	ld [wUsedSprites + 0], a ; load a into wUsedSprites + 0
+	ld [wPlayerSprite], a ; load a into wPlayerSprite
+	ld [wPlayerObjectSprite], a ; load a into wPlayerObjectSprite
+	ret ; Return
 
 INCLUDE "data/sprites/player_sprites.asm"
 

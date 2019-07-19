@@ -140,6 +140,9 @@ PLAYERSPRITESETUP_RESET_ACTION_F    EQU 7
 ; wPlayerGender:: ; d472
 PLAYERGENDER_FEMALE_F EQU 0
 
+; wTempora_IsDitto:: ; d472
+TEMPORA_ISDITTO EQU 0
+
 ; wMapStatus:: ; d432
 	const_def
 	const MAPSTATUS_START  ; 0
@@ -178,7 +181,7 @@ SPAWN_RED   EQU 2
 
 ; wMapObjects:: ; d71e
 PLAYER_OBJECT EQU 0
-NUM_OBJECTS   EQU 16
+NUM_OBJECTS   EQU 18
 
 ; wStatusFlags:: ; d84c
 	const_def

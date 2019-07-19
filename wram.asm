@@ -2384,6 +2384,7 @@ wMapStatusEnd:: ; d470
 
 wCrystalData::
 wPlayerGender:: ; d472
+wTempora_IsDitto::
 ; bit 0:
 ;	0 male
 ;	1 female
@@ -2463,7 +2464,7 @@ wObjectStructsEnd:: ; d6de
 
 wCmdQueue:: ds CMDQUEUE_CAPACITY * CMDQUEUE_ENTRY_SIZE
 
-	ds 40
+	ds 6
 
 wMapObjects:: ; d71e
 wPlayerObject:: map_object wPlayer
@@ -2482,6 +2483,8 @@ wMap12Object::  map_object wMap12
 wMap13Object::  map_object wMap13
 wMap14Object::  map_object wMap14
 wMap15Object::  map_object wMap15
+wMap16Object::  map_object wMap16
+wMap17Object::  map_object wMap17
 wMapObjectsEnd::
 
 wObjectMasks:: ds NUM_OBJECTS ; d81e

@@ -1,9 +1,9 @@
 	db BULBASAUR ; 001
 
-	db  45,  49,  49,  45,  65,  65
+	db  77,  70,  90,  43,  145,  75
 	;   hp  atk  def  spd  sat  sdf
 
-	db GRASS, POISON ; type
+	db ELECTRIC, BUG ; type
 	db 45 ; catch rate
 	db 64 ; base exp
 	db NO_ITEM, NO_ITEM ; items

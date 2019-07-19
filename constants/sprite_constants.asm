@@ -103,6 +103,8 @@
 	const SPRITE_ENTEI ; 64
 	const SPRITE_RAIKOU ; 65
 	const SPRITE_STANDING_YOUNGSTER ; 66
+	const SPRITE_MINERVA
+	const SPRITE_ETERNITYGRUNT
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
 	const_def $80

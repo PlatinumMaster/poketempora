@@ -72,4 +72,4 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; mysticalman
 	db MUSIC_TEMPORA_TEAMENC       ; Eternity Grunt
 	db MUSIC_TEMPORA_TEAMADMINENC  ; Eternity Admin
-	db MUSIC_TEMPORA_TEAMADMINENC  ; Eternity Leader
+	db MUSIC_TEMPORA_TEAMLEADERENC  ; Eternity Leader

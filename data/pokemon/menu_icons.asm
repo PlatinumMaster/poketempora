@@ -1,7 +1,7 @@
 ; party menu icons
 
 MonMenuIcons:
-	db ICON_BULBASAUR   ; BULBASAUR
+	db ICON_BUG         ; BULBASAUR
 	db ICON_BULBASAUR   ; IVYSAUR
 	db ICON_BULBASAUR   ; VENUSAUR
 	db ICON_CHARMANDER  ; CHARMANDER
