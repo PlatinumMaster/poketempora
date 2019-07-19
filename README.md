@@ -1,4 +1,4 @@
-![TemporaImage](https://cdn.discordapp.com/attachments/510122300230860801/589950726323830813/unknown.png)
+![TemporaImage](https://cdn.discordapp.com/attachments/510122300230860801/589950479681716262/unknown.png)
 =========================
 RHH pokecrystal competition submission done by PlatinumMaster and Saleh.
-No way am I hacking Generation II again.
+No way are we hacking Generation II again.
